@@ -10,6 +10,11 @@
   </head>
 
   <body>
+    <nav class="navbar navbar-light bg-light">
+      <h2 class="navbar-brand">Wikinimous</h2>
+      <%= link_to 'Add a new article', new_article_path, class: 'btn btn-primary' %>
+    </nav>
+    <br>
     <%= yield %>
   </body>
 </html>
